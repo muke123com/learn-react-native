@@ -4,3 +4,6 @@
 
 #### 2. 构建完成后在Genymotion模拟器上显示的ip地址错误，连不到本地服务器。
 模拟器menu -> Dev Settings -> Debug server host & port for device -> 改成127.0.0.1:8081
+
+#### 3. Genymotion 无法联网的问题
+VirtualBox -> 设置 -> 网络 -> 网卡2连接方式改为桥接网卡，使用当前上网的网卡。
